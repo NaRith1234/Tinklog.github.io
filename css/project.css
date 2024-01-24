@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.full-2{
+    width: 100%;
+    height: 760px;
+    /* background-color: blue; */
+    position: relative;
+}
+.main{
+    /* height: 70px; */
+    /* box-shadow: 0px 2px 4px black; */
+    border: 1px solid black;
+}
+.container{
+    width: 90%;
+}
+.box-logo img{
+    width: 200px;
+    padding: 10px 40px;
+    margin: auto !important;
+}
+.input-box{
+    /* margin: auto; */
+    width: 100%;
+}
+.buttom-box{
+    display: none;
+}
+/* .input-box i{
+    width: 30px;
+} */
+.mobile-button{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    position: absolute;
+    position: fixed;
+    bottom: 2%;
+    left: 0;
+}
+.mobile-button button{
+    width: 50%;
+}
+.container2 .mid-left{
+    width: 300px;
+    /* background-color: blue; */
+    margin-top: 10px;
+    /* margin-left: 50px; */
+    /* border: 0.50px solid gray; */
+    box-shadow: 1px 2px 4px grey;
+}
+.title-box h5{
+    color: green;
+    margin-top: 13px;
+    /* margin-left: 38px; */
+}
+.title-box b{
+    margin-top: 15px;
+}
+.title-box hr{
+    margin-bottom: 20px;
+}
+.title-box .title{
+    height: 40px;
+    /* border: 1px solid black; */
+}
+.container2 .row .content-box{
+    width: 95%;
+    height: 350px;
+    margin: auto;
+    margin-bottom: 20px;
+    /* background-color: blue; */
+    /* padding: 5px 5px; */
+}
+ .content-box i{
+    font-size: 20px;
+ }
+ .cat-content{
+    margin-bottom: 15px;
+ }
+ .content-box .cat-content p{
+    margin-left: 10px;
+ }
+ .content-box .cat-content .ms-5{
+    margin-top: 2px;
+    margin-left: 110px !important;
+ }
+.container2 .row .mid-right{
+    width: 750px;
+    height: 450px;
+    margin-top: 8px;
+    margin-left: 8px;
+    /* background-color: blue; */
+}
+.container2 .row .mid-right img{
+    width: 100% !important;
+    height: 450px;
+}
+.slide{
+    transition-property: transform;
+}
+.container2{
+    margin: auto;
+    width: 1050px;
+    /* background-color: red; */
+}
+.container3{
+    width: 1050px;
+    margin: auto;
+    margin-top: 20px;
+    /* background-color: red; */
+}
+.container3.spon{
+    width: 100%;
+}
+.container3 b{
+    font-size: 18px;
+    margin-top: 30px;
+}
+.container3 hr{
+    margin-top:12px;
+}
+.container3 .pro-content{
+    width: 100%;
+    height: 270px;
+    /* background-color: green; */
+    /* padding: 20px 20px !important; */
+}
+.container3 .pro-content .product{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 2px 3px ;
+    /* background-color: blue; */
+}
+.product .image{
+    width: 100%;
+    height: 70%;
+}
+.product .Des{
+    width: 100%;
+    height: 30%;
+}
+.product .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container3 .pro-content .box:hover .product{
+    transform: scale(1.1);
+}
+
+
+@media (max-width:575px)   {
+    .box-logo img{
+        width: 150px;
+        margin:auto;
+        display: block;
+    }
+    .container2 .row .mid-left{
+        display: none;
+    }
+    .container2 .row .mid-right{
+        width: 450px;
+        height: 200px;
+        margin-top: 8px;
+        margin-left: 8px;
+        /* background-color: blue; */
+    }
+    .container2{
+        margin: auto;
+        width: 440px;
+        /* background-color: red; */
+    }
+    .container2 .row .mid-right img{
+        width: 400px !important;
+        height: 200px;
+    }
+    .container2 .row .mid-right{
+        width: 500px;
+        /* height: 450px; */
+        margin-top: 8px;
+        margin-left: 8px;
+        /* background-color: blue; */
+    }
+    .slide{
+        width: 300;
+    }
+    .container3{
+        width: 400px;
+        margin: auto;
+        margin-top: 20px;
+        /* background-color: red; */
+    }
+    .container3 .pro-content{
+        width: 100%;
+        height: 270px;
+        /* background-color: green; */
+        /* padding: 20px 20px !important; */
+    }
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width:767px) { 
+    .box-logo img{
+        width: 150px;
+        /* margin-left: 00px; */
+        margin: 10px auto;
+        display: block;
+    }
+    .input-group{
+        margin: auto;
+        width: 100%;
+        height: 30px;
+    }
+    .buttom-box{
+        display: none;
+    }
+    .container2 .row .mid-left{
+        display: none;
+    }
+    .container3{
+        width: 200px;
+        margin: auto;
+        margin-top: 20px;
+        /* background-color: red; */
+    }
+    .container3 .pro-content{
+        width: 200px;
+        height: 270px;
+        /* background-color: green; */
+        /* padding: 20px 20px !important; */
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width:991px) {
+    .box-logo img{
+        width: 200px;
+        margin: 10px auto;
+        display: block;
+    }
+    .input-group{
+        margin: auto;
+        width: 80%;
+        height: 50px;
+    }
+    .buttom-box{
+        display: none;
+    }
+    .container2 .row .mid-left{
+        display: none;
+    }
+    .mid-right .slide{
+        margin: auto;
+        
+    }
+    .container2 .row .mid-right{
+        width: 850px;
+        height: 450px;
+        margin-top: 8px;
+        margin-left: 8px;
+        /* background-color: blue; */
+    }
+    .container3{
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+        /* background-color: red; */
+    }
+    .container3 .pro-content .box .product{
+        display: inline-block;
+    }
+    .mobile-button{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        display: flex;
+        position: absolute;
+        position: fixed;
+        bottom: 2%;
+        left: 0;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1199px){ 
+    .box-logo img{
+        width: 200px;
+        padding: 10px 40px;
+        margin: auto;
+    }
+    .input-box{
+        margin: auto;
+        width: 75%;
+    }
+    .buttom-box{
+        display: flex;
+        display: block;
+
+    }
+    .buttom-box .btn-more{
+        padding: 8px 0px;
+    }
+    .mobile-button{
+        display: none;
+    }
+    
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .box-logo img{
+        width: 200px;
+        padding: 10px 40px;
+        margin: auto;
+    }
+    .input-box{
+        margin: auto;
+        width: 75%;
+    }
+    .mobile-button{
+        display: none;
+    }
+    .buttom-box{
+        display: block;
+    }
+}
+
